@@ -1,0 +1,41 @@
+html {
+    background-image: url("background.png");
+}
+
+#box {
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    margin: 0 auto;
+    width: 800px;
+    height: 900px;
+    background-color: rgba(255,255,255,0.8);
+    font-size: 20px;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+
+}
+
+table, td, th {
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 40px;
+}
+
+th {
+    text-align: center;
+}
+
+.country {
+    transition: color 0.5s ease;
+    transition: background-color 0.5s ease;
+}
+
+.country:hover{
+    color: blue;
+    background-color: red;
+    cursor: pointer;
+}
